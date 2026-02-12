@@ -1,78 +1,78 @@
-# Projeto Fullstack — Next.js + Express
+# Fullstack Project — Next.js + Express
 
-Este projeto é uma aplicação **fullstack** desenvolvida utilizando **Next.js** no frontend e **Express.js** no backend.
+This project is a **fullstack application** developed using **Next.js** for the frontend and **Express.js** for the backend.
 
-O desenvolvimento contou com o apoio da **inteligência artificial da Replit**, utilizada de forma **intencional e experimental**, com o objetivo de testar seus limites, produtividade e qualidade de entrega em um cenário real de desenvolvimento.  
-Apesar desse suporte, **grande parte da arquitetura, decisões técnicas, lógica de negócio e implementação foram desenvolvidas manualmente por mim**.
-
----
-
-## Contexto do Projeto
-
-A proposta deste projeto foi dupla:
-
-1. **Construir uma aplicação funcional e bem estruturada**, utilizando tecnologias modernas do ecossistema JavaScript.
-2. **Avaliar, de forma crítica, o uso de IA como ferramenta de apoio ao desenvolvimento**, entendendo onde ela agrega valor e onde exige validação e refinamento humano.
-
-O resultado foi uma aplicação sólida, com aprendizados relevantes tanto técnicos quanto de processo.
+The development process included the use of **Replit’s AI** as a **support and experimentation tool**, intentionally applied to explore its capabilities in a real development scenario.  
+Despite this assistance, **the majority of the architecture, technical decisions, business logic, and implementation were developed manually by me**.
 
 ---
 
-## Tecnologias Utilizadas
+##  Project Overview
+
+The goal of this project was twofold:
+
+1. **Build a functional and well-structured application** using modern JavaScript technologies.
+2. **Critically evaluate the use of AI as a development aid**, understanding where it adds value and where human reasoning and validation are essential.
+
+The result is a solid application and valuable learnings, both technical and procedural.
+
+---
+
+## Technologies Used
 
 ### Frontend
 - **Next.js**
 - React
 - JavaScript / TypeScript
-- Consumo de API REST
+- REST API consumption
 
 ### Backend
 - **Node.js**
 - **Express.js**
-- API REST
-- Middleware customizado
-- Estruturação em camadas
+- REST API
+- Custom middleware
+- Layered architecture
 
-### Ferramentas e Apoio
-- Replit AI (como ferramenta de auxílio e experimentação)
+### Tools & Support
+- Replit AI (used as an auxiliary and experimental tool)
 - Git / GitHub
 
 ---
 
-## Arquitetura e Decisões Técnicas
+## Architecture & Technical Decisions
 
-- Separação clara entre **frontend e backend**
-- API estruturada seguindo boas práticas REST
-- Organização de código focada em **manutenibilidade e clareza**
-- Validação e revisão manual de trechos gerados com auxílio de IA
-- Ajustes e refatorações feitas para garantir:
-  - legibilidade
-  - correção lógica
-  - coerência arquitetural
-
----
-
-## Uso de Inteligência Artificial no Projeto
-
-A IA foi utilizada como:
-- apoio para geração inicial de código
-- auxílio em tarefas repetitivas
-- ferramenta de experimentação e aprendizado
-
-Entretanto:
-- **nenhuma lógica crítica foi utilizada sem revisão**
-- diversas partes foram **reescritas, adaptadas ou descartadas**
-- decisões finais sempre foram humanas
-
-Este projeto reflete a visão de que **IA é uma ferramenta de apoio**, e não um substituto para entendimento técnico.
+- Clear separation between **frontend and backend**
+- API structured following REST best practices
+- Code organization focused on **maintainability and clarity**
+- Manual review and refactoring of AI-assisted code
+- Technical decisions aimed at ensuring:
+  - readability
+  - logical correctness
+  - architectural consistency
 
 ---
 
-## Como Executar o Projeto
+## Use of Artificial Intelligence
 
-### Pré-requisitos
-- Node.js instalado
-- Gerenciador de pacotes (npm ou yarn)
+AI was used as:
+- support for initial code generation
+- assistance with repetitive tasks
+- a learning and experimentation tool
+
+However:
+- no critical logic was used without manual validation
+- several sections were rewritten, adapted, or discarded
+- final decisions were always human-driven
+
+This project reflects the belief that **AI should be treated as a development aid, not a replacement for technical understanding**.
+
+---
+
+## How to Run the Project
+
+### Prerequisites
+- Node.js installed
+- Package manager (npm or yarn)
 
 ### Backend
 ```bash
@@ -86,3 +86,4 @@ npm run dev
 cd frontend
 npm install
 npm run dev
+
