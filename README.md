@@ -79,3 +79,10 @@ Este projeto reflete a visão de que **IA é uma ferramenta de apoio**, e não u
 cd backend
 npm install
 npm run dev
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
