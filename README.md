@@ -1,89 +1,75 @@
-# Fullstack Project — Next.js + Express
+# Marketplace — Fullstack Application (Vite + Express)
 
-This project is a **fullstack application** developed using **Next.js** for the frontend and **Express.js** for the backend.
+This project is a **fullstack application** organized as a **monorepo**, containing both frontend and backend in a single repository.
 
-The development process included the use of **Replit’s AI** as a **support and experimentation tool**, intentionally applied to explore its capabilities in a real development scenario.  
-Despite this assistance, **the majority of the architecture, technical decisions, business logic, and implementation were developed manually by me**.
-
----
-
-##  Project Overview
-
-The goal of this project was twofold:
-
-1. **Build a functional and well-structured application** using modern JavaScript technologies.
-2. **Critically evaluate the use of AI as a development aid**, understanding where it adds value and where human reasoning and validation are essential.
-
-The result is a solid application and valuable learnings, both technical and procedural.
+The frontend is built with **Vite + React**, while the backend uses **Node.js with Express**.  
+The project was developed as a practical experiment to build a real application and to evaluate the use of **AI-assisted development (Replit AI)** as a supporting tool — with all critical logic, architecture, and decisions implemented and reviewed manually.
 
 ---
 
-## Technologies Used
+## Application Screenshots
 
-### Frontend
-- **Next.js**
+> Below are some screenshots of the application running locally.
+
+<p align="center">
+  <img src="assets/inicial.png" alt="Home Screen" width="700"/>
+</p>
+
+<p align="center">
+  <img src="assets/cadastro.png" alt="Login Screen" width="700"/>
+</p>
+
+<p align="center">
+  <img src="assets/produtos.png" alt="Dashboard Screen" width="700"/>
+</p>
+
+> Screenshots are located in: `assets/`
+
+---
+
+## Project Overview
+
+The main goals of this project were:
+
+- Build a functional fullstack application using modern JavaScript tools
+- Practice backend and frontend integration in a monorepo structure
+- Experiment with AI as a **development aid**, not as a replacement
+- Maintain clean architecture, readable code, and explicit decision-making
+
+---
+
+## Tech Stack
+
+### Frontend (`/client`)
 - React
-- JavaScript / TypeScript
-- REST API consumption
+- Vite
+- TypeScript
+- Tailwind CSS
+- Component-based architecture
+- API consumption via HTTP
 
-### Backend
-- **Node.js**
-- **Express.js**
+### Backend (`/server`)
+- Node.js
+- Express
+- TypeScript
 - REST API
-- Custom middleware
-- Layered architecture
+- Authentication utilities
+- File storage and static handling
 
-### Tools & Support
-- Replit AI (used as an auxiliary and experimental tool)
-- Git / GitHub
-
----
-
-## Architecture & Technical Decisions
-
-- Clear separation between **frontend and backend**
-- API structured following REST best practices
-- Code organization focused on **maintainability and clarity**
-- Manual review and refactoring of AI-assisted code
-- Technical decisions aimed at ensuring:
-  - readability
-  - logical correctness
-  - architectural consistency
+### Shared
+- Shared schemas and routes
+- Type reuse between frontend and backend
 
 ---
 
-## Use of Artificial Intelligence
+## Project Structure
 
-AI was used as:
-- support for initial code generation
-- assistance with repetitive tasks
-- a learning and experimentation tool
-
-However:
-- no critical logic was used without manual validation
-- several sections were rewritten, adapted, or discarded
-- final decisions were always human-driven
-
-This project reflects the belief that **AI should be treated as a development aid, not a replacement for technical understanding**.
-
----
-
-## How to Run the Project
-
-### Prerequisites
-- Node.js installed
-- Package manager (npm or yarn)
-
-### Backend
-```bash
-cd backend
-npm install
-npm run dev
-```
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-
+```text
+MARKETPLACE/
+├── client/          # Frontend (Vite + React)
+├── server/          # Backend (Express API)
+├── shared/          # Shared types, schemas and routes
+├── assets/
+│   └── screenshots/ # Application screenshots used in README
+├── README.md
+└── package.json
